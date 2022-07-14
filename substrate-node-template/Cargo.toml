@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "node",
+    "pallets/template",
+    "frameless-runtime",
+]
+[profile.release]
+panic = "unwind"
